@@ -188,13 +188,11 @@ def check_notification():
 # Displays a single digit (0-9)
 def show_digit(val, xd, yd, r, g, b):
   global State
-  # print("\n%d (r%d g%d b%d) @ x%d,y%d" % (val, r, g, b, xd, yd))
   offset = val * 15
   for p in range(offset, offset + 15):
     xt = p % 3
     yt = (p-offset) // 3
     if (State['DisplayOn']): sense.set_pixel(xt+xd, yt+yd, r*NUMS[p], g*NUMS[p], b*NUMS[p])
-    # print("\n  offset=%d xt=%d xd=%d yt=%d yd=%d p=%d NUMS[p]=%d" % (offset, xt, xd, yt, yd, p, NUMS[p]))
 
 # Displays a two-digits positive number (0-99)
 def show_number(val, rgb):
