@@ -1,0 +1,61 @@
+2018-03-01 00:22:08,074 - weather_pi - WARNING - ...PW Exception:<class 'urllib2.URLError'>
+2018-03-01 00:24:08,525 - weather_pi - WARNING - ...PW Exception:<class 'urllib2.URLError'>
+2018-03-01 00:26:08,605 - weather_pi - WARNING - ...PW Exception:<class 'urllib2.URLError'>
+2018-03-01 00:28:09,005 - weather_pi - WARNING - ...PW Exception:<class 'urllib2.URLError'>
+2018-03-01 00:30:07,914 - weather_pi - WARNING - ...PW Exception:<class 'urllib2.URLError'>
+2018-03-01 00:30:07,915 - weather_pi - WARNING - .....Unable to Save Failure Log
+2018-03-01 00:30:07,918 - weather_pi - WARNING - ...WU URL      :http://weatherstation.wunderground.com/weatherstation/updateweatherstation.php?dateutc=now&tempf=35.6&baromin=29.46&humidity=52.2&action=updateraw&PASSWORD=yourKeyHere&ID=yourStationIDHere
+2018-03-01 00:30:07,919 - weather_pi - WARNING - ...WU Exception:<class 'urllib2.URLError'>
+2018-03-01 00:32:07,754 - weather_pi - WARNING - ...PW Exception:<class 'urllib2.URLError'>
+2018-03-01 00:34:08,074 - weather_pi - WARNING - ...PW Exception:<class 'urllib2.URLError'>
+2018-03-01 00:36:08,525 - weather_pi - WARNING - ...PW Exception:<class 'urllib2.URLError'>
+2018-03-01 00:38:08,925 - weather_pi - WARNING - ...PW Exception:<class 'urllib2.URLError'>
+2018-03-01 00:40:08,284 - weather_pi - WARNING - ...PW Exception:<class 'urllib2.URLError'>
+2018-03-01 00:17:05,146 - weather_pi - INFO - .........................
+2018-03-01 00:17:05,154 - weather_pi - INFO - .........................
+2018-03-01 00:17:05,155 - weather_pi - INFO - Weather Pi....Starting...
+2018-03-01 00:17:05,156 - weather_pi - INFO - .........................
+2018-03-01 00:17:05,157 - weather_pi - INFO - .........................
+2018-03-01 00:17:05,157 - weather_pi - INFO - Initializing Configuration
+2018-03-01 00:17:05,158 - weather_pi - INFO - USE_PROBE_1================>True
+2018-03-01 00:17:05,159 - weather_pi - INFO - PROBE_1====================>28-0417a2d9f9ff
+2018-03-01 00:17:05,159 - weather_pi - INFO - TEMP_SENSOR_1==============>/sys/bus/w1/devices/28-0417a2d9f9ff/w1_slave
+2018-03-01 00:17:05,160 - weather_pi - INFO - USE_PROBE_2================>True
+2018-03-01 00:17:05,161 - weather_pi - INFO - PROBE_2====================>28-0417a2ec2aff
+2018-03-01 00:17:05,161 - weather_pi - INFO - TEMP_SENSOR_2==============>/sys/bus/w1/devices/28-0417a2ec2aff/w1_slave
+2018-03-01 00:17:05,162 - weather_pi - INFO - USE_SENSEHAT_TEMPERATURE===>True
+2018-03-01 00:17:05,163 - weather_pi - INFO - LOCAL_STATION_ID===========>6100245999979349
+2018-03-01 00:17:05,163 - weather_pi - INFO - LOCAL_STATION_TIMEZONE=====>America/Eastern
+2018-03-01 00:17:05,164 - weather_pi - INFO - SUNRISE====================>5
+2018-03-01 00:17:05,165 - weather_pi - INFO - SUNSET=====================>19
+2018-03-01 00:17:05,165 - weather_pi - INFO - MEASUREMENT_INTERVAL=======>1
+2018-03-01 00:17:05,166 - weather_pi - INFO - DISPLAY_INTERVAL===========>1
+2018-03-01 00:17:05,166 - weather_pi - INFO - DISPLAY_ON=================>True
+2018-03-01 00:17:05,167 - weather_pi - INFO - DISPLAY_DIM================>False
+2018-03-01 00:17:05,168 - weather_pi - INFO - DISPLAY_SI=================>True
+2018-03-01 00:17:05,169 - weather_pi - INFO - CAPTURE_SI=================>True
+2018-03-01 00:17:05,169 - weather_pi - INFO - PT_UPLOAD==================>False
+2018-03-01 00:17:05,170 - weather_pi - INFO - PT_UPLOAD_INTERVAL=========>2
+2018-03-01 00:17:05,170 - weather_pi - INFO - PT_URL=====================>http://192.168.0.172:8888/piWeatherDB/assets/ajax/aPostWeather.php
+2018-03-01 00:17:05,171 - weather_pi - INFO - PW_UPLOAD==================>True
+2018-03-01 00:17:05,172 - weather_pi - INFO - PW_UPLOAD_INTERVAL=========>2
+2018-03-01 00:17:05,172 - weather_pi - INFO - PW_URL=====================>http://192.168.0.99/weather/assets/ajax/aPostWeather.php
+2018-03-01 00:17:05,173 - weather_pi - INFO - PW_ID======================>6100245999979349
+2018-03-01 00:17:05,174 - weather_pi - INFO - WU_UPLOAD==================>False
+2018-03-01 00:17:05,174 - weather_pi - INFO - WU_UPLOAD_INTERVAL=========>15
+2018-03-01 00:17:05,175 - weather_pi - INFO - WU_URL=====================>http://weatherstation.wunderground.com/weatherstation/updateweatherstation.php
+2018-03-01 00:17:05,176 - weather_pi - INFO - Station ID:yourStationIDHere
+2018-03-01 00:17:05,176 - weather_pi - INFO - Successfully Set Configuration Values
+2018-03-01 00:17:05,177 - weather_pi - INFO - Load Saved State
+2018-03-01 00:17:05,179 - weather_pi - INFO - State -> Status ==========>Current
+2018-03-01 00:17:05,180 - weather_pi - INFO -          Updated =========>2018-02-16 10:56:04.087092
+2018-03-01 00:17:05,181 - weather_pi - INFO -          DisplayDim ======>False
+2018-03-01 00:17:05,181 - weather_pi - INFO -          DisplayOn =======>True
+2018-03-01 00:17:05,182 - weather_pi - INFO -          ColdFrameOn =====>True
+2018-03-01 00:17:05,183 - weather_pi - INFO -          WUUpload ========>True
+2018-03-01 00:17:05,183 - weather_pi - INFO -          WUInterval ======>15
+2018-03-01 00:17:05,184 - weather_pi - INFO - Successfully Set State Values
+2018-03-01 00:17:05,185 - weather_pi - INFO - Initializing the Sense HAT client
+2018-03-01 00:17:11,948 - weather_pi - INFO - Current temperature reading:0
+2018-03-01 00:17:11,951 - weather_pi - INFO - Initialization complete!
+2018-03-01 00:17:11,952 - weather_pi - INFO - Start Loop...
