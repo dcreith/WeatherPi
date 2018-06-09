@@ -4,7 +4,7 @@ WeatherPi
 WeatherPi is a Python application making use of a SenseHat & temperature probes
 to gather information that is logged to a database.
 
-See the WeatherDB & WeatherConsole repositories for complementary applications
+See the WeatherServer & WeatherConsole repositories for complementary applications
 that log & present the data.
 
 WeatherPi (weather_pi.py) was pulled together from various other Raspberry Pi
