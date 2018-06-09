@@ -15,13 +15,17 @@ web service.
 **Prerequisites:**
 
 Raspberry Pi (anything that supports the SenseHat)
+
 SenseHat
+
 1 or 2 DS18B20 Temperature Probes
 
 **Setup**
 
 SenseHat - plug in, get libs
+
 Probes - see various instructables - Links to come
+
 Cron - see sample crontab, I reboot once a day to cover any interruptions
 
 **Get repo:**
